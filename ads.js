@@ -16,8 +16,8 @@ function loadAds(param) {
   if (adUrl) {
     const iframe = document.createElement("iframe");
     iframe.src = adUrl;
-    iframe.width = "316";
-    iframe.height = "273";
+    iframe.width = "100%";
+    iframe.height = "280";
     iframe.style.border = "none";
     document.body.appendChild(iframe); 
   }
